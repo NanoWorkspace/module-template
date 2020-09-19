@@ -1,15 +1,5 @@
-import ReactionRoleMessage from "./app/ReactionRoleMessage"
-import ReactionRole from "./app/ReactionRole"
+import Nano from "@ghom/nano-bot"
 
-require("./parts/commands")
-require("./parts/events")
+const NanoModule = {}
 
-const NanoReactionRole: {
-  ReactionRoleMessage: typeof ReactionRoleMessage
-  ReactionRole: typeof ReactionRole
-} = {
-  ReactionRoleMessage,
-  ReactionRole,
-}
-
-export default NanoReactionRole
+export default NanoModule
