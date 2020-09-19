@@ -39,7 +39,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CamilleAbella/NanoModuleTemplate.git"
+    "url": "git+https://github.com/NanoWorkspace/module-template.git"
   },
   "dependencies": {
     "@ghom/nano-bot": "^1.10.9-beta",
