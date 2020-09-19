@@ -1,4 +1,5 @@
 import Nano from "@ghom/nano-bot"
+import enmap from "enmap"
 
 const NanoModule = {}
 
