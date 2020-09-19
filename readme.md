@@ -9,7 +9,9 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/CamilleAbella/NanoModuleTemplate?color=%23BDB76B&label=size&style=plastic)
 ![GitHub issues](https://img.shields.io/github/issues/CamilleAbella/NanoModuleTemplate?color=%23BDB76B&style=plastic)
 
-## Import
+## Usage
+
+Read the [API documentation](https://github.com/CamilleAbella/NanoDocs) to learn how to use Nano.
 
 ```ts
 import "@ghom/nano-module-template"
