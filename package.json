@@ -1,0 +1,48 @@
+{
+  "name": "@ghom/nano-module-template",
+  "author": "ghom",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "Nano module template",
+  "main": "dist/index.js",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": false,
+    "useTabs": false
+  },
+  "scripts": {
+    "prettier": "prettier src package.json readme.md tsconfig.json --write",
+    "build": "git rm -r --ignore-unmatch -f ./dist && npm run prettier && tsc",
+    "start": "npm run build && node .",
+    "precommit": "npm run prettier && git add *",
+    "commit": "git commit -m continue",
+    "push": "npm run commit && git push origin master"
+  },
+  "keywords": [
+    "discord.js",
+    "bot",
+    "typescript",
+    "reaction-role",
+    "nano-bot"
+  ],
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "@types/ws": "^7.2.6",
+    "prettier": "^2.0.5",
+    "typescript": "4.0.2"
+  },
+  "engines": {
+    "node": "v14.3.0",
+    "npm": "6.14.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CamilleAbella/NanoModuleTemplate.git"
+  },
+  "dependencies": {
+    "@ghom/nano-bot": "^1.10.9-beta",
+    "enmap": "^5.7.1"
+  }
+}
