@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "description": "Nano module template",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
